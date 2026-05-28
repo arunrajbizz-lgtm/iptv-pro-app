@@ -1,0 +1,10 @@
+body { margin:0; background:#0b0b0f; color:white; font-family:Arial,sans-serif; overflow:hidden; }
+#app { display:flex; height:100vh; }
+.sidebar { width:320px; padding:16px; background:#151520; box-sizing:border-box; overflow:auto; }
+.player { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+video { width:95%; height:80%; background:#000; }
+textarea { width:100%; height:70px; margin-bottom:10px; background:#222; color:white; border:1px solid #444; }
+button { width:100%; padding:12px; margin:5px 0; background:#2b6cff; color:white; border:0; border-radius:8px; font-size:16px; }
+button:focus { outline:3px solid #fff; }
+.channel { background:#252536; text-align:left; }
+#status { padding:12px; color:#ccc; }
