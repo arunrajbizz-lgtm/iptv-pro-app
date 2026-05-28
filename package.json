@@ -1,16 +1,12 @@
 {
   "name": "iptv-pro-app",
   "version": "1.0.0",
-  "description": "Simple IPTV module for TizenBrew",
-  "main": "index.html",
-  "scripts": {
-    "start": "vite --host 0.0.0.0",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "@vitejs/plugin-legacy": "latest",
-    "vite": "latest",
-    "hls.js": "latest"
-  },
-  "devDependencies": {}
+  "description": "IPTV Pro App for TizenBrew",
+  "main": "module.js",
+  "tizenbrew": {
+    "name": "IPTV Pro App",
+    "description": "Simple IPTV player",
+    "author": "Arunraj",
+    "entry": "index.html"
+  }
 }
